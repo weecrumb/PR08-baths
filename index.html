@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<title>Baths</title>
+	<link rel="stylesheet" href="airdate/air-datepicker.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__nav">
+				<div class="header__nav-left">
+					<img src="img/Logo(1).png" class="header__logo">
+					<div class="header__city">
+						<img src="img/location icon.png" class="header__city-img">
+						<a href="#" class="header__city-link link">Новосибирск</a>
+					</div>
+					<a href="#" class="header__serch link">Поиск бани</a>
+				</div>
+				<div class="header__nav-right">
+					<a href="#" class="header__place link">Разместить Баню</a>
+					<img src="img/subway_hurt.png" class="header__favorites-img">
+					<div class="header__profile profile">
+						<img src="img/ic_round-account-circle.png" class="profile__icon">
+						<img src="img/heroicons-solid_menu.png" class="profile__burger-img">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="first-screen">
+			<div class="panel-search">
+				<div class="panel-search__type pan">
+					<h3 class="panel-search__type-title panel__title">
+						Тип парной
+					</h3>
+					<select class="panel-search__type-select" name="type" id="1" tabindex="1">
+						<option value="0">Не важно</option>
+						<option value="1">1 тип</option>
+						<option value="2">2 тип</option>
+					</select>
+				</div>
+				<div class="line"></div>
+				<div class="panel-search__place pan">
+					<h3 class="panel-search__place-title panel__title">
+						Расположение
+					</h3>
+					<select class="panel-search__type-select" name="type" id="1" tabindex="2">
+						<option value="0">Район города</option>
+						<option value="1">Пермь</option>
+						<option value="2">Чусовой</option>
+						<option value="3">Болдино</option>
+					</select>
+				</div>
+				<div class="line"></div>
+				<div class="panel-search__price pan">
+					<h3 class="panel-search__price-title panel__title">
+						Цена
+					</h3>
+					<select class="panel-search__type-select" name="type" id="1" tabindex="3">
+						<option value="0">Цена за час</option>
+						<option value="1">200 ₽</option>
+						<option value="2">1000 ₽</option>
+						<option value="3">2000 ₽</option>
+					</select>
+				</div>
+				<div class="line"></div>
+				<div class="panel-search__date">
+					<h3 class="panel-search__type-title panel__title">
+						Дата
+					</h3>
+					<input placeholder="Выберите дату" type="text" id="airdatepicker"
+						class="form-control panel-search__type-select">
+				</div>
+				<div class="panel-search__btn btn">Найти</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="advantages">
+			<div class="advantages__container container">
+				<div class="advantages__items">
+					<div class="advantages__item">
+						<img src="img/sauna_icon.png" class="advantages__item-img">
+						<div class="advantages__item-desc">
+							<h3 class="advantages__item-desc-title">Более 300 бань и <br> саун Новосибирска</h3>
+							<p class="advantages__item-desc-desc">
+								Самый полный каталог: бани, <br> сайны, бассейны, домики с парной
+							</p>
+						</div>
+					</div>
+					<div class="advantages__item">
+						<img src="img/discount-icon.png" class="advantages__item-img">
+						<div class="advantages__item-desc">
+							<h3 class="advantages__item-desc-title">Более 300 бань и <br> саун Новосибирска</h3>
+							<p class="advantages__item-desc-desc">
+								Самый полный каталог: бани, <br> сайны, бассейны, домики с парной
+							</p>
+						</div>
+					</div>
+					<div class="advantages__item">
+						<img src="img/review 1.png" class="advantages__item-img">
+						<div class="advantages__item-desc">
+							<h3 class="advantages__item-desc-title">Более 300 бань и <br> саун Новосибирска</h3>
+							<p class="advantages__item-desc-desc">
+								Самый полный каталог: бани, <br> сайны, бассейны, домики с парной
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="popular">
+			<div class="popular__container container">
+				<div class="popular__container-name">
+					<h2 class="popular__title">Популярные</h2>
+					<a href="#" class="popelar__variants link">Все варианты</a>
+				</div>
+				<div class="popular__items">
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="promo">
+			<div class="popular__container container">
+				<div class="popular__container-name">
+					<h2 class="popular__title">Акции и предложения</h2>
+					<a href="#" class="popelar__variants link">Все варианты</a>
+				</div>
+				<div class="popular__items">
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popular__item">
+						<div class="popular__item-images">
+							<div class="popular__item-image-bc">
+								<img src="img/popular1.png" class="popular__item-img">
+								<img src="img/like.png" class="popular__item-img-icon">
+							</div>
+						</div>
+						<h3 class="popular__item-title">Сауна Аквамарин</h3>
+						<p class="popular__item-street popular__item-desc">Улица: Никитина, 35/1</p>
+						<p class="popular__item-district popular__item-desc">Район: Октябрьский</p>
+						<div class="popular__item-stickers stickers">
+							<div class="stickers__review">
+								<div class="stickers__review-images">
+									<img src="img/star.png" class="stickers__review-img">
+								</div>
+								<p class="stickers__review-desc">4.5</p>
+							</div>
+							<div class="stickers__price">
+								<p class="stickers__review-desc">от 1 000 р.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="discount">
+			<div class="discount__container">
+				<h2 class="discount__title">Баня со скидкой</h2>
+				<p class="discount__desc">Подпишитесь на наши рассылки, чтобы быть в курсе <br> действующих акций и скидок
+				</p>
+				<button class="discount__btn btn">Подписаться</button>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__container container">
+				<h2 class="services__title">Продавайте свои услуги <br> вместе с нами</h2>
+				<p class="services__desc">Размещайте свои бани на портале, публикуйте акции, <br> увеличивайте продажи
+				</p>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__items">
+				<div class="footer__item">
+					<h4 class="footer__item-title">Идеи для отдыха</h4>
+					<a href="#" class="footer__item-desc link">Для большой компании</a>
+					<a href="#" class="footer__item-desc link">Семейный отдых</a>
+					<a href="#" class="footer__item-desc link">Для двоих</a>
+					<a href="#" class="footer__item-desc link">Баня с купелью на улице</a>
+					<a href="#" class="footer__item-desc link">Баня за городом</a>
+					<a href="#" class="footer__item-desc link">Бани и сауны в центре</a>
+					<a href="#" class="footer__item-desc link">СПА и процедуры</a>
+				</div>
+				<div class="footer__item">
+					<h4 class="footer__item-title">Расположение</h4>
+					<a href="#" class="footer__item-desc link">Бани Центрального района</a>
+					<a href="#" class="footer__item-desc link">Бани Заельцовского района</a>
+					<a href="#" class="footer__item-desc link">Бани Октябрьского района</a>
+					<a href="#" class="footer__item-desc link">Бани Держинского района</a>
+					<a href="#" class="footer__item-desc link">Бани Железнодорожного района</a>
+					<a href="#" class="footer__item-desc link">Бани Ленинского района</a>
+					<a href="#" class="footer__item-desc link">Бани Кировского района</a>
+					<a href="#" class="footer__item-desc link">Бани Первомайского района</a>
+					<a href="#" class="footer__item-desc link">Бани Советского района</a>
+					<a href="#" class="footer__item-desc link">Бани Бердска</a>
+				</div>
+				<div class="footer__item">
+					<h4 class="footer__item-title">Пользователям</h4>
+					<a href="#" class="footer__item-desc link">О проекте</a>
+					<a href="#" class="footer__item-desc link">Правила и условия бронирования</a>
+					<a href="#" class="footer__item-desc link">Пользовательское соглашение</a>
+					<a href="#" class="footer__item-desc link">Положение о <br> конфиденциальности и cookie</a>
+					<a href="#" class="footer__item-desc link">Вопрос-Ответ</a>
+					<a href="#" class="footer__item-desc link">Для партнеров</a>
+					<a href="#" class="footer__item-desc link">Контакты</a>
+				</div>
+				<div class="footer__item">
+					<div class="footer__item-btn btn">Добавить баню</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="airdate/air-datepicker.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
